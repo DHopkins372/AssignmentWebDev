@@ -3,4 +3,11 @@ header{
     color: white;
     width: 1500px;
     float: center;
+    padding: 1em;
+}
+
+div{
+    background-color: beige;
+    color: black;
+    padding: 1em;
 }
