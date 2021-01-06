@@ -1,6 +1,53 @@
-header{
+
+
+body{
+    display:grid;
+    grid-template-columns: 30% 40% 30%;
+    grid-template-rows: auto;
+    grid-template-areas:"nav nav nav"
+                        "header header header"
+                         "main ul aside"
+                         "footer footer footer";
+}
+nav{
     background-color: burlywood;
     color: white;
     width: 1500px;
     float: center;
+    padding: 1em;
+    grid-area: nav;
+}
+
+header{
+    background-color: burlywood;
+    color: black;
+    grid-area: header;
+    padding: 1em;
+}
+
+ul{
+    background-color: burlywood;
+    color: black;
+    grid-area: ul;
+    padding: 1em;
+}
+main{
+    background-color: bisque;
+    color: black;
+    grid-area: main;
+    padding: 1em;
+}
+
+aside{
+    background-color: bisque;
+    color: black;
+    grid-area: aside;
+    padding: 1em;
+}
+
+footer{
+    background-color: burlywood;
+    color: black;
+    grid-area: footer;
+    padding: 1em;
 }

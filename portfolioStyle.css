@@ -1,4 +1,4 @@
-header{
+nav{
     background-color: burlywood;
     color: white;
     width: 1500px;
@@ -11,6 +11,8 @@ img{
 }
 body{
     background-color: beige;
+    color: black;
+    padding: 1em;
 }
 .myImages{
     display: grid;
