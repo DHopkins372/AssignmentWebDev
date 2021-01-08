@@ -27,13 +27,18 @@ nav{
     height: 100vh;
 }
 
-div{
+h1{
+    background-color: beige;
+    color: black;
+    padding: 1em;
+    font-family: Verdana;
+}
+p{
     background-color: beige;
     color: black;
     padding: 1em;
     font-family: Arial;
 }
-
 body{
     background-color: beige;
 }

@@ -1,13 +1,24 @@
 nav{
     background-color: burlywood;
     color: white;
-    width: 1500px;
     float: center;
     padding: 1em;
+    font-family: Arial;
 }
 
-div{
+h1{
     background-color: beige;
     color: black;
     padding: 1em;
+    font-family: Verdana;
+}
+p{
+    background-color: beige;
+    color: black;
+    padding: 1em;
+    font-family: Arial;
+}
+
+body{
+    background-color: beige;
 }
