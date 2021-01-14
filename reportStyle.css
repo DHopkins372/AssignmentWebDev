@@ -1,0 +1,59 @@
+body{
+    background-color: beige;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    grid-template-areas: "nav nav "
+                         "header header"
+                         "main aside";
+    
+}
+nav{
+    background-color: burlywood;
+    color: white;
+    float: center;
+    padding: 1em;
+    font-family: Arial;
+    grid-area: nav;
+}
+header{
+    font-family: Verdana;
+    padding: 1em;
+    background-color: burlywood;
+    color: black;
+    max-width: 100%;
+
+}
+h1{
+    font-family: Verdana;
+    padding: 1em;
+    background-color: burlywood;
+    color: black;
+}
+h2{
+    font-family: Verdana;
+    padding: 1em;
+    background-color: burlywood;
+    color: black;
+}
+h3{
+    font-family: Verdana;
+    padding: 1em;
+    background-color: burlywood;
+    color: black;
+}
+p{
+    font-family: Arial;
+    color: black;
+    background-color: bisque;
+}
+main{
+    grid-area: main;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+aside{
+    grid-area: aside;
+}
